@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Dark Pattern",
+    "version": "1.0",
+    "description": "An Extension to defend users against dark pattern malpractices.",
+    "browser_action": {
+      "default_icon": {
+        "128": "Shreyas.jpg"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Click to send URL"
+    },
+    "permissions": ["activeTab"]
+  }
+  
